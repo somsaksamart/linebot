@@ -5,5 +5,4 @@
     $db = 'gcp_69ff83754fb2546bc343';
     $conn = new mysqli($host,$user,$pass,$db);
     mysqli_query($conn,"SET NAMES utf8");
-    echo 'dcdscdsfdsf';
  ?>
