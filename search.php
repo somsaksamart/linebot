@@ -1,14 +1,9 @@
 <?php
   require('connect_db.php');
-  $sql_text = "SELECT * FROM catbot WHERE keyword LIKE '%b%'";
-  $query = mysqli_query($conn,$sql_text);
-  while($objresult = mysqli_fetch_assoc($query))
+  $sql = "SELECT * FROM catbot";
+  $query = mysqli_query($conn,$sql);
+  while($obj = mysqli_fetch_array($query))
   {
-      echo $objresult['answer']."<br>";
+    echo "11111";
   }
-  
-  
-
-
-
 ?>
