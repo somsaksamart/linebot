@@ -4,6 +4,6 @@
   $query = mysqli_query($conn,$sql);
   while($obj = mysqli_fetch_array($query))
   {
-    echo $obj['answer'];
+    echo $obj['answer']."<br>";
   }
 ?>
